@@ -1,115 +1,136 @@
-<!doctype html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Windell Gann</title>
-    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
-  </head>
-  <body>
-
-        <div class="off-canvas-content" data-off-canvas-content>
-          <div class="title-bar hide-for-large">
-            <div class="title-bar-left">
-              <button class="menu-icon" type="button" data-open="my-info"></button>
-              <span class="title-bar-title">Bible Study Resources</span>
-            </div>
-          </div>
-          <div class="callout primary">
-            <div class="row column">
-              <h1>Bible Study Resources</h1>
-              <h3>Windell Gann</h3>
-              <p class="lead">Resource site for Bible study lesson sheets; such as "Walking Thru the Bible" series; "Bible Book of the Month"; "Bible Survey"; Sermons; PowerPoint Sermons; e-Sword modules, and other resources helps.</p>
-            </div>
-          </div>
-          <div class="row small-up-2 medium-up-3 large-up-4">
-            <div class="column">
-              <img class="thumbnail" src="/sermons/salvat.htm">
-              <h5>God's way to Salvation</h5>
-            </div>
-            <div class="column">
-              <img class="thumbnail" src="https://placehold.it/550x550">
-              <h5>My Site</h5>
-            </div>
-            <div class="column">
-              <img class="thumbnail" src="https://placehold.it/550x550">
-              <h5>My Site</h5>
-            </div>
-            <div class="column">
-              <img class="thumbnail" src="https://placehold.it/550x550">
-              <h5>My Site</h5>
-            </div>
-            <div class="column">
-              <img class="thumbnail" src="https://placehold.it/550x550">
-              <h5>My Site</h5>
-            </div>
-            <div class="column">
-              <img class="thumbnail" src="https://placehold.it/550x550">
-              <h5>My Site</h5>
-            </div>
-            <div class="column">
-              <img class="thumbnail" src="https://placehold.it/550x550">
-              <h5>My Site</h5>
-            </div>
-            <div class="column">
-              <img class="thumbnail" src="https://placehold.it/550x550">
-              <h5>My Site</h5>
-            </div>
-            <div class="column">
-              <img class="thumbnail" src="https://placehold.it/550x550">
-              <h5>My Site</h5>
-            </div>
-            <div class="column">
-              <img class="thumbnail" src="https://placehold.it/550x550">
-              <h5>My Site</h5>
-            </div>
-            <div class="column">
-              <img class="thumbnail" src="https://placehold.it/550x550">
-              <h5>My Site</h5>
-            </div>
-            <div class="column">
-              <img class="thumbnail" src="https://placehold.it/550x550">
-              <h5>My Site</h5>
-            </div>
-          </div>
-
-          <hr>
-
-          <div class="row">
-            <div class="medium-6 columns">
-              <h3>Contact Me</h3>
-              <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor.</p>
-              <ul class="menu">
-                <li><a href="#">Dribbble</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Yo</a></li>
-              </ul>
-            </div>
-            <div class="medium-6 columns">
-              <label>Name
-                <input type="text" placeholder="Name">
-              </label>
-              <label>Email
-                <input type="text" placeholder="Email">
-              </label>
-              <label>
-                Message
-                <textarea placeholder="holla at a designerd"></textarea>
-              </label>
-              <input type="submit" class="button expanded" value="Submit">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bible Study Resources | Windell Gann</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        main {
+            max-width: 700px;
+            margin: 2rem auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(44, 62, 80, 0.07);
+            padding: 2rem;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        ul.portfolio-links {
+            list-style: none;
+            padding: 0;
+        }
+        ul.portfolio-links li {
+            margin: 1rem 0;
+            padding: 1rem;
+            border-bottom: 1px solid #ececec;
+            transition: background 0.2s;
+        }
+        ul.portfolio-links li:last-child {
+            border-bottom: none;
+        }
+        ul.portfolio-links li:hover {
+            background: #f0f4f8;
+        }
+        a {
+            color: #0077cc;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.1em;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .description {
+            color: #444;
+            margin-top: 0.3em;
+            font-size: 0.95em;
+        }
+        @media (max-width: 500px) {
+            main {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bible Study Resources</h1>
+        <h3>Windell Gann</h3>
+        <p>Resource site for Bible study lesson sheets; such as 
+        "Walking Thru the Bible" series; "Bible Book of the Month"; 
+        "Bible Survey"; Sermons; PowerPoint Sermons; 
+        e-Sword modules, and other resources helps.</p>
+    </header>
+    <main>
+        <ul class="portfolio-links">
+            <li>
+                <a href="lessons/lesson_index.htm" target="_blank" src="images/Bible%20Study%20Lesson%20Sheets.gif">
+                    Bible Study Lesson Sheets
+                </a>
+                <div class="description">
+                    These are lessons designed for either a Bible Study class or for personal study of the Bible.  There are questions, fill in the blank, matching, and true false questions on one chapter of the Bible in each study sheet. There is a Study Sheet for every  chapter of the New Testament.  All the answers come from the Bible itself.
+                </div>
+            </li>
+            <li>
+                <a href="https://github.com/dahlb/ha_hatch" target="_blank">
+                    Home Assistant Hatch Integration
+                </a>
+                <div class="description">
+                    Integration for Home Assistant to control Hatch devices.
+                </div>
+            </li>
+            <li>
+                <a href="https://github.com/orywig/windellgann-orywig" target="_blank">
+                    Windell Gann (Windell Gann Fork)
+                </a>
+                <div class="description">
+                    Technical analysis and trading tools forked and customized.
+                </div>
+            </li>
+            <li>
+                <a href="https://github.com/windell-gann/windellgann" target="_blank">
+                    Windell Gann Original Repository
+                </a>
+                <div class="description">
+                    The original Windell Gann repository for market analysis tools.
+                </div>
+            </li>
+        </ul>
+        <hr>
+        <section>
+            <h2>More Resources</h2>
+            <ul class="portfolio-links">
+                <li>
+                    <a href="https://github.com/orywig" target="_blank">
+                        My GitHub Profile
+                    </a>
+                    <div class="description">
+                        See all my public repositories and contributions.
+                    </div>
+                </li>
+                <li>
+                    <a href="mailto:orywig@example.com">
+                        Contact Me
+                    </a>
+                    <div class="description">
+                        Email for questions, collaborations, or project inquiries.
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
 </html>
-
-
-
